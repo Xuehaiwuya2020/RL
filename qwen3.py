@@ -42,3 +42,5 @@ content = tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("
 
 print("thinking content:", thinking_content)
 print("content:", content)
+
+print("haha")
