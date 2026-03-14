@@ -1,4 +1,4 @@
-api_key = "sk-108cf15a7a0b4d12931f59caf1963f5f"
+
 
 def load_dotenv():
     """Load environment variables from a .env file."""
@@ -17,7 +17,7 @@ def generate_with_ds(prompt):
             {"role": "system", "content": "You are a helpful assistant"},
             {"role": "user", "content": prompt},
         ],
-        stream=False
+        stream=False 
     )
 
     return response.choices[0].message.content
