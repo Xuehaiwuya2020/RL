@@ -22,3 +22,5 @@ SFT/output
 swanlog/
 .env/
 RM/pretrain_model/
+
+utils/
